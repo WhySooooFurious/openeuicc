@@ -12,7 +12,10 @@ java_defaults {
         "androidx.swiperefreshlayout_swiperefreshlayout",
         "androidx.cardview_cardview",
         "androidx.viewpager2_viewpager2",
-        "OpenEUICC_androidx.datastore_datastore-preferences",
+        "androidx.datastore_datastore",
+        "androidx.datastore_datastore-core",
+        "androidx.datastore_datastore-preferences",
+        "androidx.datastore_datastore-preferences-core",
         "OpenEUICC_com.journeyapps_zxing-android-embedded",
     ],
 }

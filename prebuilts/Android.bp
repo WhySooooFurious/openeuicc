@@ -1,0 +1,27 @@
+android_library_import {
+    name: "OpenEUICC_androidx.datastore_datastore-preferences",
+    aars: ["datastore-preferences-1.0.0.aar"],
+    static_libs: ["OpenEUICC_androidx.datastore_datastore"],
+    system_ext_specific: true,
+    sdk_version: "current",
+}
+
+android_library_import {
+    name: "OpenEUICC_androidx.datastore_datastore",
+    aars: ["datastore-1.0.0.aar"],
+    system_ext_specific: true,
+    sdk_version: "current",
+}
+
+java_import {
+    name: "OpenEUICC_com.google.zxing_core",
+    jars: ["core-3.5.0.jar"],
+}
+
+android_library_import {
+    name: "OpenEUICC_com.journeyapps_zxing-android-embedded",
+    aars: ["zxing-android-embedded-4.3.0.aar"],
+    static_libs: ["OpenEUICC_com.google.zxing_core"],
+    system_ext_specific: true,
+    sdk_version: "current",
+}
